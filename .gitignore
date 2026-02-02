@@ -1,4 +1,1 @@
-*.pkl
-venv/
-__pycache__/
-*.pt
+backup/
