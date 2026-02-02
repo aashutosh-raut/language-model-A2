@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>LSTM Language Model</title>
+</head>
+<body>
+    <h2>LSTM Language Model Demo</h2>
+
+    <form method="POST">
+        <input type="text" name="prompt" size="50" placeholder="Enter prompt">
+        <button type="submit">Generate</button>
+    </form>
+
+    {% if generated %}
+        <h3>Generated Text:</h3>
+        <p>{{ generated }}</p>
+    {% endif %}
+</body>
+</html>
+
+
